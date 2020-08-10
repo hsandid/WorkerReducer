@@ -34,13 +34,10 @@ int main(int argc, char **argv)
     //Obtaining argument N and calculating the correct amount of lines 320000/N
     int N;
     sscanf(argv[1], "%d", &N);
-    int lines = 320000/N;
+    int lines = 100/N;
     char linesBuffer[sizeof(char)*7];
     snprintf(linesBuffer, sizeof linesBuffer, "%d", lines);
 
-    // printf("%d\n",N);
-    // printf("%d\n",lines);
-    // printf("%s\n",linesBuffer);
 
     pid_t childpid;
     childpid = fork();

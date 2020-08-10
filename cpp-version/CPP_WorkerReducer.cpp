@@ -29,7 +29,7 @@ void modMapper(int mult)
     int cceCount=0;
     int eceCount=0;
     long pos=0;
-    long totalSize = 20748044;
+    long totalSize = 6303;
     int ret;
     char b[4];
     //Start at a specific byte
